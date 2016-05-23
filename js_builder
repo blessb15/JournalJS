@@ -1,0 +1,10 @@
+npm init
+npm install prompt --save
+npm install browserify --save-dev
+npm install browserify -g
+browserify js/browser.js -o build/js/app.js
+npm install gulp --save-dev
+npm install gulp -g
+npm install vinyl-source-stream --save-dev
+npm install jshint --save-dev
+npm install gulp-jshint --save-dev
